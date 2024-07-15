@@ -1,0 +1,29 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.item-overLay{
+    bottom: 30%;
+    width: 80%;
+    left: 10%;
+}
+#lightBoxContainer{
+background-color: rgba(0, 0, 0, 0.4);
+
+position: fixed;
+right: 0;
+left: 0;
+top: 0;
+bottom: 0;
+}
+
+#ligthtBox{
+    width: 45%;
+    height: 450px;
+    background-image: url(/images/portfolio-1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#ligthtBox i{
+    cursor: pointer;
+    /* 3lshan yshawer 3la el icon */
+}
